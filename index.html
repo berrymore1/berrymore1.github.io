@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="Sorry about that. Upgrade your account today!" property="og:description">
+    <meta content="Discord Gold is required to view this attachment." property="og:title">
+    <meta content="Discord" property="og:site_name">
+    <link rel="icon" href="https://discordapp.com/assets/07dca80a102d4149e9736d4b162cff6f.ico" />
+    <meta content='https://cdn.discordapp.com/emojis/251238233453625345.png' property='og:image'>
+    <meta content='image/png' property='og:image:type'>
+    <meta content='1821' property='og:image:width'>
+    <meta content='2082' property='og:image:height'>
+    <title>BerrymoreBot</title>
+    <style>
+        @font-face {
+            font-family: 'Reenie Beanie';
+            src: url(https://discordapp.com/assets/4b861c4f9cb4e4fbec1662f6c6e9186f.woff) format('woff')
+        }
+        
+        @font-face {
+            font-family: Whitney;
+            font-style: light;
+            font-weight: 300;
+            src: url(https://discordapp.com/assets/16801bfdf51ed88e69bc90626a3ea436.woff) format('woff')
+        }
+        
+        @font-face {
+            font-family: Whitney;
+            font-style: normal;
+            font-weight: 500;
+            src: url(https://discordapp.com/assets/d153359b5d87601d2b9c708b7ae2db02.woff) format('woff')
+        }
+        
+        @font-face {
+            font-family: Whitney;
+            font-style: medium;
+            font-weight: 600;
+            src: url(https://discordapp.com/assets/a934ab008c7f6a2274ec441f6be0696a.woff) format('woff')
+        }
+        
+        @font-face {
+            font-family: Whitney;
+            font-style: semibold;
+            font-weight: 650;
+            src: url(/assets/877ef48bf9fcfee590f0ba64de101b59.woff) format('woff')
+        }
+        
+        @font-face {
+            font-family: Whitney;
+            font-style: bold;
+            font-weight: 700;
+            src: url(https://discordapp.com/assets/2e004dd717cdc58b9ccb361d286ebbce.woff) format('woff')
+        }
+        
+        @font-face {
+            font-family: SourceCodePro;
+            font-style: normal;
+            font-weight: 500;
+            src: url(https://discordapp.com/assets/748ac49ebe4bf0ddfe85c005be7c64c4.woff) format('woff')
+        }
+        
+        code {
+            font-family: SourceCodePro;
+        }
+        
+        #wrapper {
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+        
+        footer {
+            background: #23272A;
+            padding-top: 20px;
+            margin-top: 150px;
+        }
+        
+        body,
+        html {
+            background: #2C2F33;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 16px;
+            height: 100%;
+            width: 100%;
+            font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+            margin: 0;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: #ffffff;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        h2 {
+            font-weight: 700;
+            font-size: 20px;
+        }
+        
+        p {
+            line-height: 27px;
+            font-size: 17px;
+        }
+        
+        .logo {
+            margin: 20px;
+        }
+        
+        .centre {
+            text-align: center;
+        }
+        
+        header {
+            top: 0;
+            left: 0;
+            background-image: url(https://discordapp.com/assets/697e63f59d8a1e1673fd9b551f674d1f.png);
+            background-size: 270px 213px;
+            width: 100%;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin-bottom: 50px;
+        }
+        
+        header .limit {
+            width: 460px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+        header p {
+            box-shadow: 0 0 25px 1px rgba(114, 137, 218, 0.53);
+        }
+        
+        .section {
+            width: 800px;
+            margin: 0 auto;
+            padding-bottom: 15px;
+        }
+        
+        .button-wrapper {
+            position: relative;
+            margin: 75px auto;
+            width: 400px;
+        }
+        
+        .button {
+            display: block;
+            color: #7289da;
+            background-color: #fff;
+            border-radius: 3px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 25px 0;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 22px;
+            top: -2px;
+            position: absolute;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .2);
+            transition: all .3s cubic-bezier(.25, .25, .315, 1.35), top .1s linear;
+        }
+        
+        .button-blue {
+            color: #fff;
+            background-color: #7289da;
+        }
+        
+        .button:hover {
+            top: 0;
+            box-shadow: none;
+            color: #fff;
+            
+        }
+        
+        a {
+            text-decoration: none;
+            color: #7289da;
+            transition: all .3s cubic-bezier(.25, .25, .315, 1.35), top .1s linear;            
+        }
+        a:hover {
+            color: #7890e7;
+        }
+        h2 {
+            text-decoration: underline;
+            color: #faee49;
+            transition: all .3s cubic-bezier(.25, .25, .315, 1.35), top .1s linear;
+        }
+        h4 {
+            text-decoration: none;
+            color:#ffca98
+        }
+
+	.codeblock {
+	    background: #2e3136;
+	    border: 2px solid #282b30;
+	    border-radius: 5px;
+ 	    box-sizing: border-box;
+	    padding: 8px;
+    	    font-family: Consolas,Liberation Mono,Menlo,Courier,monospace; 
+	}
+   
+	.codeblock .code-blue {
+	    color: #268bd2;
+	}
+
+	.codeblock .code-gold {
+	    color: #b58900;
+	}    
+    </style>
+</head>
+
+<body>
+    <div id='wrapper'>
+        <header>
+            <h1>BerrymoreBot</h1>
+            <p class='limit'>Добро пожаловать на официальный сайт BerrymoreBot!</p>
+        </header>
+        <div class='section'>
+            <h2>ЛИЧНЫЕ СООБЩЕНИЯ</h2>
+            <code class="codeblock"><span class="code-gold">BerrymoreBot позволит вам сделать это прямо на сервере</span><span class="code-blue"> введя простую команду!</span></code>
+            <h4>Благодаря данному боту вы сможете отправить сообщение участнику сервера без лишних усилий. </h4>
+            <h4>Это удобно!</h4>
+        </div>
+        <div class='section'>
+            <h2>СПОКОЙНОЙ НОЧИ</h2>
+            <h4>Пожелай спокойной ночи участникам сервера!</h4>
+        </div>
+        <div class='section'>
+            <h2>ПРЕФИКС</h2>
+            <h4>Мой префикс — "."</h4>
+        </div>
+        <div class='section'>
+            <div class='button-wrapper'>
+                <a class='centre button-blue button' href='https://discord.com/api/oauth2/authorize?client_id=705547598701789224&permissions=8&scope=bot'>Пригласи меня сейчас!</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p><a href="mailto:jhonberrymore@gmail.com">jhonberrymore@gmail.com</a></p>
+        <p>Или же можете написать в Discord — berrymore'#1233</p>
+    </footer>
+</body>
+
+</html>
